@@ -10,6 +10,7 @@ def read_from_hash(hash, key)
   hash = {
     key => "Steve"
   }
+  puts hash
 end
 
 def update_counting_hash(hash, key)
